@@ -1,9 +1,6 @@
 ### 1_虚拟机环境
 
 > 本教程执行过程中如果遇到网络问题，建议连接自己或者公用的VPN
->
-> [VPN地址](https://www.yuntipub.com/)教程同上，不再赘述
-> 用户名：vrains   密码: linkOUT
 
 #### Ubuntu 简介
 
@@ -111,11 +108,37 @@ $ source ~/.bash_profile
 ```bash
 $ echo "ruby_url=https://cache.ruby-china.org/pub/ruby" > ~/.rvm/user/db
 ```
-有关Ruby 的安装与切换， 这里**留作作业**；
+
+列出已知版本：
+
+```bash
+rvm list known
+```
+安装一个 Ruby 版本
+```bash
+rvm install 2.2.2
+```
+切换 Ruby 版本
+```bash
+rvm use 2.2.2
+```
+如果想设置为默认版本，这样一来以后新打开的控制台默认的 Ruby 就是这个版本
+```bash
+rvm use 2.2.2 --default
+```
+查询已经安装的ruby
+```bash
+rvm list
+```
+卸载一个已安装版本
+```bash
+rvm remove 1.8.7
+```
+
 有关Nginx的内容，以后会讲到，不过这里讲的略简单，故也不做要求。
 作为选做作业，大家可以自行查看：[rvm使用教程](https://ruby-china.org/wiki/rvm-guide)
 
-可以通过`ruby -v`查看是否安装成功，如果没有成功，可以按照下列步骤补救一下：
+可以通过`ruby -v 和 rvm -v`查看是否安装成功，如果没有成功，可以按照下列步骤补救一下：
 
 在终端->右键->配置文件->命令->以登陆shell方式运行命令
 
