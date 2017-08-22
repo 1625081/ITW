@@ -1,4 +1,8 @@
-### 1_虚拟机环境
+### 目录
+* [虚拟机](#1.0)
+* [Ruby](#1.1)
+
+<h3 id="1.0">1_虚拟机环境</h3>
 
 > 本教程执行过程中如果遇到网络问题，建议连接自己或者公用的VPN
 
@@ -88,7 +92,8 @@ BUG List：
 Ruby is...
 A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
 
-**Ruby 安装**
+
+<h4 id="1.1">**Ruby 安装**</h4>
 
 RVM 是一个命令行工具，可以提供一个便捷的多版本 Ruby 环境的管理和切换。
 
