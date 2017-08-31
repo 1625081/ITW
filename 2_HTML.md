@@ -1,9 +1,8 @@
 ### 2_HTML
 
 > 准备工作：[下载Atom编辑器](https://atom.io/)
-
 > 可以选择安装在Windows下或者虚拟机下，建议两边都安装上，
-> 因为有时需要在不同的平台下进行开发
+因为有时需要在不同的平台下进行开发
 
 #### 2.0 调试HTML
 
@@ -15,7 +14,8 @@
 Atom快捷键：
 
 如`shift+方向键`进行不需移动鼠标的选择，`ctrl+方向键`进行跨单词移动，
-`ctrl+点击`进行多点编辑，`ctrl+/`快速注释，`ctrl+[`快速缩进等等
+`ctrl+点击`进行多点编辑，`ctrl+/`快速注释，`ctrl+[`快速缩进,`shift+ctrl`,
+`ctrl+D`,`ctrl+F`等等
 
 鉴于网上教程没找到合适的，可以根据file->settings
 ->keybindings ->search "editor" 查看全部快捷键
